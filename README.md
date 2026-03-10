@@ -2,8 +2,6 @@
 
 A comprehensive Data Structures and Algorithms course with Python implementations.
 
-**Owner:** Macharla Nagamanojreddy
-
 ## 📚 Course Overview
 
 This repository contains DSA learning materials organized by day/topics.
@@ -67,4 +65,8 @@ This repository contains DSA learning materials organized by day/topics.
 ## 📄 License
 
 MIT License
+
+---
+
+**Owner:** Macharla Nagamanojreddy
 
