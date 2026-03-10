@@ -73,4 +73,5 @@ MIT License
 Macharla Nagamanojreddy
 
 - GitHub: [MacharlaNagamanojreddy](https://github.com/MacharlaNagamanojreddy)
+- LinkedIn: [Manoj Reddy Macharla](https://www.linkedin.com/in/manoj-reddy-macharla-8a9888258/)
 
