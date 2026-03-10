@@ -68,5 +68,7 @@ MIT License
 
 ---
 
-**Owner:** Macharla Nagamanojreddy
+## 👤 Owner
+
+Macharla Nagamanojreddy
 
