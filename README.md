@@ -31,6 +31,16 @@ This repository contains DSA learning materials organized by day/topics.
   - AND/OR operators
   - Membership operators
 
+### Day 3 - Counting Problems
+- **counting.py** - Counting algorithms
+  - Count even/odd numbers 1 to N
+  - Count digits in a number
+  - Count prime numbers 1 to N
+  - Count vowels/consonants in string
+  - Count character occurrence
+  - Sum of digits
+  - Reverse number
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -48,6 +58,7 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 1/loop_simple.py
    python3 Day\ 1/number_simple.py
    python3 Day\ 2/if\ else.py
+   python3 Day\ 3/counting.py
    ```
 
 ## 📝 Requirements
