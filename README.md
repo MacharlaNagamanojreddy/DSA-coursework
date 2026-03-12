@@ -41,16 +41,19 @@ This repository contains DSA learning materials organized by day/topics.
   - Sum of digits
   - Reverse number
 
+### Day 4 - Pattern Printing
+- **pattern.py** - Star and number pattern problems
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MacharlaNagamanojreddy/DSA-corusework.git
+   git clone https://github.com/MacharlaNagamanojreddy/DSA-coursework.git
    ```
 
 2. Navigate to the directory:
    ```bash
-   cd DSA-corusework
+   cd DSA-coursework
    ```
 
 3. Run Python files:
@@ -59,6 +62,7 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 1/number_simple.py
    python3 Day\ 2/if\ else.py
    python3 Day\ 3/counting.py
+   python3 Day\ 4/pattern.py
    ```
 
 ## 📝 Requirements
