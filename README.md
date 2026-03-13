@@ -45,7 +45,9 @@ This repository contains DSA learning materials organized by day/topics.
 - **pattern.py** - Star and number pattern problems
 
 ### Day 5 - String Counting & Manipulation
-- **counting.py** - Vowel counting and string reversal
+- **counting.py** - String operations
+  - Count vowels in string
+  - Reverse string
 
 ## 🚀 Getting Started
 
