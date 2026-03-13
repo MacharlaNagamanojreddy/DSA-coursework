@@ -44,6 +44,9 @@ This repository contains DSA learning materials organized by day/topics.
 ### Day 4 - Pattern Printing
 - **pattern.py** - Star and number pattern problems
 
+### Day 5 - String Counting & Manipulation
+- **counting.py** - Vowel counting and string reversal
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -63,6 +66,7 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 2/if\ else.py
    python3 Day\ 3/counting.py
    python3 Day\ 4/pattern.py
+   python3 Day\ 5/counting.py
    ```
 
 ## 📝 Requirements
