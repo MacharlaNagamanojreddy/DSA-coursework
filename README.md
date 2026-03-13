@@ -53,6 +53,15 @@ This repository contains DSA learning materials organized by day/topics.
   - Count vowels in string
   - Reverse string
 
+### Projects - Practical Applications
+- **attendancetracker.py** - Attendance tracker using dictionaries
+  - Add student attendance records by name and date
+  - View all attendance records
+
+- **expenses.py** - Expense tracker using dictionaries
+  - Add expense name and amount
+  - View all expenses list
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -73,6 +82,8 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 3/counting.py
    python3 Day\ 4/pattern.py
    python3 Day\ 5/counting.py
+   python3 projects/attendancetracker.py
+   python3 projects/expenses.py
    ```
 
 ## 📝 Requirements
