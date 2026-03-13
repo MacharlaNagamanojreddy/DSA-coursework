@@ -43,9 +43,15 @@ This repository contains DSA learning materials organized by day/topics.
 
 ### Day 4 - Pattern Printing
 - **pattern.py** - Star and number pattern problems
+  - Star right triangle
+  - Number right triangle
+  - Reverse number triangle
+  - Upside down number triangle
 
 ### Day 5 - String Counting & Manipulation
 - **counting.py** - Vowel counting and string reversal
+  - Count vowels in string
+  - Reverse string
 
 ## 🚀 Getting Started
 
