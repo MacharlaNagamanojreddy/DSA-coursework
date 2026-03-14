@@ -62,6 +62,11 @@ This repository contains DSA learning materials organized by day/topics.
   - Add expense name and amount
   - View all expenses list
 
+- **fee_calculator.py** - Course fee calculator using functions
+  - Interactive course selection and marks input
+  - Calculates base fee (AI: ₹50,000) with >90 marks discount (₹5,000 off)
+  - Invalid course handling
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -84,6 +89,7 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 5/counting.py
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
+   python3 projects/fee_calculator.py
    ```
 
 ## 📝 Requirements

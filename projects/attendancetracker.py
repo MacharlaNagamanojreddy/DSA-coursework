@@ -1,5 +1,5 @@
-#Attendance tracker program that allows users to input their attendance for a class and keeps track of it.
-#i need each name of the students and their attendance status for each date. The program should allow users to add attendance records and view them.
+#Attendance tracker program 
+
 def add_attendance(attendance_records, name, date, status):
     if name not in attendance_records:
         attendance_records[name] = {}
