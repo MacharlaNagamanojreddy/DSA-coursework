@@ -53,6 +53,12 @@ This repository contains DSA learning materials organized by day/topics.
   - Count vowels in string
   - Reverse string
 
+### Day 6 - Prime Number Operations
+- **prime number.py** - Prime number checker
+  - Efficient prime check using square root optimization (range 2 to sqrt(n))
+  - Interactive user input and validation
+  - Main function with __name__ == "__main__" guard
+
 ### Projects - Practical Applications
 - **attendancetracker.py** - Attendance tracker using dictionaries
   - Add student attendance records by name and date
@@ -89,8 +95,9 @@ This repository contains DSA learning materials organized by day/topics.
    python3 Day\ 5/counting.py
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
-   python3 projects/fee_calculator.py
-   ```
+python3 projects/fee_calculator.py
+   python3 Day\ 6/prime\ number.py
+```
 
 ## 📝 Requirements
 
