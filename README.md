@@ -1,8 +1,25 @@
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Repo](https://img.shields.io/badge/Repo-DSA--coursework-green?logo=github)](https://github.com/MacharlaNagamanojreddy/DSA-coursework)
+
 # DSA Coursework
+
+
 
 A comprehensive Data Structures and Algorithms course with Python implementations.
 
+## 📖 Table of Contents
+- [📚 Course Overview](#-course-overview)
+- [📅 Content Structure](#-content-structure)
+- [📋 Progress Tracker](#-progress-tracker)
+- [🚀 Getting Started](#-getting-started)
+- [📝 Requirements](#-requirements)
+- [🔧 How to Contribute](#-how-to-contribute)
+- [📄 License](#-license)
+- [👤 Owner](#-owner)
+
 ## 📚 Course Overview
+
 
 This repository contains DSA learning materials organized by day/topics.
 
@@ -48,7 +65,7 @@ This repository contains DSA learning materials organized by day/topics.
   - Reverse number triangle
   - Upside down number triangle
 
-### Day 5 - String Counting & Manipulation
+### Day 5 - String Counting & Manipulation *(Note: shares filename with Day 3)*
 - **counting.py** - Vowel counting and string reversal
   - Count vowels in string
   - Reverse string
@@ -58,6 +75,11 @@ This repository contains DSA learning materials organized by day/topics.
   - Efficient prime check using square root optimization (range 2 to sqrt(n))
   - Interactive user input and validation
   - Main function with __name__ == "__main__" guard
+
+### Day 7 - Array Operations
+- **evenarray.py** - Array processing
+  - Count even numbers in array
+  - Find maximum value in array of unknown size
 
 ### Projects - Practical Applications
 - **attendancetracker.py** - Attendance tracker using dictionaries
@@ -73,6 +95,17 @@ This repository contains DSA learning materials organized by day/topics.
   - Calculates base fee (AI: ₹50,000) with >90 marks discount (₹5,000 off)
   - Invalid course handling
 
+## 📋 Progress Tracker
+
+- [x] Day 1 - Loops & Number Operations
+- [x] Day 2 - Conditional Statements  
+- [x] Day 3 - Counting Problems
+- [x] Day 4 - Pattern Printing
+- [x] Day 5 - String Counting & Manipulation
+- [x] Day 6 - Prime Number Operations
+- [x] Day 7 - Array Operations
+- [x] Projects
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -82,26 +115,29 @@ This repository contains DSA learning materials organized by day/topics.
 
 2. Navigate to the directory:
    ```bash
-   cd DSA-coursework
+   cd "DSA coursework"
    ```
 
-3. Run Python files:
+3. Run Python files (examples):
    ```bash
-   python3 Day\ 1/loop_simple.py
-   python3 Day\ 1/number_simple.py
-   python3 Day\ 2/if\ else.py
-   python3 Day\ 3/counting.py
-   python3 Day\ 4/pattern.py
-   python3 Day\ 5/counting.py
+   python3 "Day 1/loop_simple.py"
+   python3 "Day 1/number_simple.py"
+   python3 "Day 2/if else.py"
+   python3 "Day 3/counting.py"
+   python3 "Day 4/pattern.py"
+   python3 "Day 5/counting.py"
+   python3 "Day 6/prime number.py"
+   python3 "Day 7/evenarray.py"
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
-python3 projects/fee_calculator.py
-   python3 Day\ 6/prime\ number.py
-```
+   python3 projects/fee_calculator.py
+   ```
+
 
 ## 📝 Requirements
 
-- Python 3.x
+- Python 3.8+
+
 
 ## 🔧 How to Contribute
 

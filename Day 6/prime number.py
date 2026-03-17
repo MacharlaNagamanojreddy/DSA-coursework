@@ -13,4 +13,5 @@ def main():
     else:
         print(f"{number} is not a prime number.")
 if __name__ == "__main__":    
-    main()
+    main() 
+    
