@@ -81,6 +81,14 @@ This repository contains DSA learning materials organized by day/topics.
   - Count even numbers in array
   - Find maximum value in array of unknown size
 
+### Day 8 - Time Complexity & Prefix Sum
+- **time and complexity.py** - Time complexity tutorial: O(1), O(n), O(n²) examples + analysis
+- **prefix.py** - Prefix sum array implementation O(n)
+- **palindrome.py** - Palindrome string checking (linear time)
+
+### Day 9 - [Advanced Topics - Empty/Placeholder]
+*(Add content as needed)*
+
 ### Projects - Practical Applications
 - **attendancetracker.py** - Attendance tracker using dictionaries
   - Add student attendance records by name and date
@@ -104,6 +112,8 @@ This repository contains DSA learning materials organized by day/topics.
 - [x] Day 5 - String Counting & Manipulation
 - [x] Day 6 - Prime Number Operations
 - [x] Day 7 - Array Operations
+- [x] Day 8 - Time Complexity & Prefix Sum
+- [ ] Day 9 - Advanced Topics
 - [x] Projects
 
 ## 🚀 Getting Started
@@ -128,6 +138,9 @@ This repository contains DSA learning materials organized by day/topics.
    python3 "Day 5/counting.py"
    python3 "Day 6/prime number.py"
    python3 "Day 7/evenarray.py"
+   python3 "Day 8/palindrome.py"
+   python3 "Day 8/prefix.py"  
+   python3 "Day 8/time and complexity.py"
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
    python3 projects/fee_calculator.py
