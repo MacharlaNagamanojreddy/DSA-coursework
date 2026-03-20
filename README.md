@@ -4,8 +4,6 @@
 
 # DSA Coursework
 
-
-
 A comprehensive Data Structures and Algorithms course with Python implementations.
 
 ## 📖 Table of Contents
@@ -19,7 +17,6 @@ A comprehensive Data Structures and Algorithms course with Python implementation
 - [👤 Owner](#-owner)
 
 ## 📚 Course Overview
-
 
 This repository contains DSA learning materials organized by day/topics.
 
@@ -74,7 +71,7 @@ This repository contains DSA learning materials organized by day/topics.
 - **prime number.py** - Prime number checker
   - Efficient prime check using square root optimization (range 2 to sqrt(n))
   - Interactive user input and validation
-  - Main function with __name__ == "__main__" guard
+  - Main function with __name__ == \"__main__\" guard
 
 ### Day 7 - Array Operations
 - **evenarray.py** - Array processing
@@ -86,8 +83,11 @@ This repository contains DSA learning materials organized by day/topics.
 - **prefix.py** - Prefix sum array implementation O(n)
 - **palindrome.py** - Palindrome string checking (linear time)
 
-### Day 9 - [Advanced Topics - Empty/Placeholder]
-*(Add content as needed)*
+### Day 9 - Search & Sort Algorithms
+- **counting -ve.py** - Counting negative numbers in array/list
+- **counting.py** - Advanced counting problems
+- **linear.py** - Linear search algorithm implementation
+- **selection sort.py** - Selection sort algorithm (O(n²) time complexity)
 
 ### Projects - Practical Applications
 - **attendancetracker.py** - Attendance tracker using dictionaries
@@ -95,7 +95,7 @@ This repository contains DSA learning materials organized by day/topics.
   - View all attendance records
 
 - **expenses.py** - Expense tracker using dictionaries
-  - Add expense name and amount
+  - Add expense name and amount  
   - View all expenses list
 
 - **fee_calculator.py** - Course fee calculator using functions
@@ -113,7 +113,7 @@ This repository contains DSA learning materials organized by day/topics.
 - [x] Day 6 - Prime Number Operations
 - [x] Day 7 - Array Operations
 - [x] Day 8 - Time Complexity & Prefix Sum
-- [ ] Day 9 - Advanced Topics
+- [x] Day 9 - Search & Sort Algorithms
 - [x] Projects
 
 ## 🚀 Getting Started
@@ -125,32 +125,34 @@ This repository contains DSA learning materials organized by day/topics.
 
 2. Navigate to the directory:
    ```bash
-   cd "DSA coursework"
+   cd \"DSA coursework\"
    ```
 
 3. Run Python files (examples):
    ```bash
-   python3 "Day 1/loop_simple.py"
-   python3 "Day 1/number_simple.py"
-   python3 "Day 2/if else.py"
-   python3 "Day 3/counting.py"
-   python3 "Day 4/pattern.py"
-   python3 "Day 5/counting.py"
-   python3 "Day 6/prime number.py"
-   python3 "Day 7/evenarray.py"
-   python3 "Day 8/palindrome.py"
-   python3 "Day 8/prefix.py"  
-   python3 "Day 8/time and complexity.py"
+   python3 \"Day 1/loop_simple.py\"
+   python3 \"Day 1/number_simple.py\"
+   python3 \"Day 2/if else.py\"
+   python3 \"Day 3/counting.py\"
+   python3 \"Day 4/pattern.py\"
+   python3 \"Day 5/counting.py\"
+   python3 \"Day 6/prime number.py\"
+   python3 \"Day 7/evenarray.py\"
+   python3 \"Day 8/palindrome.py\"
+   python3 \"Day 8/prefix.py\"  
+   python3 \"Day 8/time and complexity.py\"
+   python3 \"Day 9/counting -ve.py\"
+   python3 \"Day 9/counting.py\"
+   python3 \"Day 9/linear.py\"
+   python3 \"Day 9/selection sort.py\"
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
    python3 projects/fee_calculator.py
    ```
 
-
 ## 📝 Requirements
 
 - Python 3.8+
-
 
 ## 🔧 How to Contribute
 
