@@ -1,4 +1,4 @@
-<![CDATA[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Repo](https://img.shields.io/badge/Repo-DSA--coursework-green?logo=github)](https://github.com/MacharlaNagamanojreddy/DSA-coursework)
 
@@ -7,14 +7,14 @@
 A comprehensive Data Structures and Algorithms course with Python implementations covering basics to advanced sorting and searching algorithms.
 
 ## 📖 Table of Contents
-- [📚 Course Overview](#-course-overview)
-- [📅 Content Structure](#-content-structure)
-- [📋 Progress Tracker](#-progress-tracker)
-- [🚀 Getting Started](#-getting-started)
-- [📝 Requirements](#-requirements)
-- [🔧 How to Contribute](#-how-to-contribute)
-- [📄 License](#-license)
-- [👤 Owner](#-owner)
+- [📚 Course Overview](#course-overview)
+- [📅 Content Structure](#content-structure)
+- [📋 Progress Tracker](#progress-tracker)
+- [🚀 Getting Started](#getting-started)
+- [📝 Requirements](#requirements)
+- [🔧 How to Contribute](#how-to-contribute)
+- [📄 License](#license)
+- [👤 Owner](#owner)
 
 ## 📚 Course Overview
 
@@ -37,8 +37,8 @@ This repository contains DSA learning materials organized by **daily topics** fr
 ### Day 4 - Pattern Printing
 - **pattern.py** - Star/num right triangle, reverse num triangle, upside-down num triangle
 
-### Day 5 - String Manipulation *(Note: shares filename with Day 3)*
-- **counting.py** - Count vowels, reverse string
+### Day 5 - String Manipulation
+- **counting.py** - Count vowels, reverse string *(Note: shares filename with Day 3)*
 
 ### Day 6 - Prime Numbers
 - **prime number.py** - Optimized prime check (2 to √n), user input, main guard
@@ -65,48 +65,43 @@ This repository contains DSA learning materials organized by **daily topics** fr
 - **Insertion sort** - In-place insertion sort O(n²)
   - Ex: [12,11,13,5,6] → sorted
 - **counting the shifts**, **input,output** - Shift analysis for sorts
-- **Quick sort.txt** - Quick sort theory
 
 ### Day 12 - Quick Sort Components
-- **partition** - Lomuto partition for quicksort/quickselect
-  - In-place pivot partitioning
-  - Quickselect kth smallest: Ex [7,10,4,3,20,15], k=3
+- **partition** - Lomuto partition + Quickselect kth smallest
+  - Ex: [7,10,4,3,20,15], k=3 → 4 (modifies array in-place)
 
 ### Day 13 - Merge Sort
-- **Merge sort** - Recursive merge sort T(n)=2T(n/2)+O(n)
-  - Separate merge fn, stable O(n log n)
+- **Merge sort** - Recursive merge sort O(n log n), stable, separate merge fn
   - Ex: [5,2,4,1] → [1,2,4,5]
-- **Merge sort.txt** - Explanation
 
 ### Day 14 - Binary Search
-- **Binary search** - Iterative O(log n) on sorted array
-  - Returns index or -1
+- **Binary search** - Iterative O(log n) on sorted array (index or -1)
   - Ex: 90 in [10,20,30,40,50] → -1
 
 ### Projects - Real-World Apps
-- **attendancetracker.py** - Dict-based attendance (add/view by name/date)
-- **expenses.py** - Expense tracker (add/view name/amount)
-- **fee_calculator.py** - Interactive fee calc (AI course, marks discount >90: -₹5k)
+- **attendancetracker.py** - Dict-based attendance (add/view records)
+- **expenses.py** - Expense tracker (add/view items)
+- **fee_calculator.py** - Fee calc with discounts (>90 marks: -₹5,000 off AI course ₹50,000)
 
 ## 📋 Progress Tracker
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1 | Loops/Numbers | ✅ |
-| 2 | Conditionals | ✅ |
-| 3 | Counting | ✅ |
-| 4 | Patterns | ✅ |
-| 5 | Strings | ✅ |
-| 6 | Primes | ✅ |
-| 7 | Arrays | ✅ |
-| 8 | Analysis/Prefix | ✅ |
-| 9 | Linear/Selection | ✅ |
-| **10** | **Bubble Sort** | **✅** |
-| **11** | **Insertion/Shifts** | **✅** |
-| **12** | **Partition** | **✅** |
-| **13** | **Merge Sort** | **✅** |
-| **14** | **Binary Search** | **✅** |
-| Projects | Apps | ✅ |
+| Day      | Topic                  | Status |
+|----------|------------------------|--------|
+| 1        | Loops/Numbers          | ✅     |
+| 2        | Conditionals           | ✅     |
+| 3        | Counting               | ✅     |
+| 4        | Patterns               | ✅     |
+| 5        | Strings                | ✅     |
+| 6        | Primes                 | ✅     |
+| 7        | Arrays                 | ✅     |
+| 8        | Analysis/Prefix        | ✅     |
+| 9        | Linear/Selection       | ✅     |
+| **10**   | **Bubble Sort**        | **✅** |
+| **11**   | **Insertion/Shifts**   | **✅** |
+| **12**   | **Quick Components**   | **✅** |
+| **13**   | **Merge Sort**         | **✅** |
+| **14**   | **Binary Search**      | **✅** |
+| Projects | Real-world Apps        | ✅     |
 
 ## 🚀 Getting Started
 
@@ -118,13 +113,14 @@ This repository contains DSA learning materials organized by **daily topics** fr
 
 2. **Run examples** (Python 3.8+):
    ```bash
-   # Days 1-9
-   python3 "Day 1/loop_simple.py"  # & others...
+   # Early days (1-9)
+   python3 "Day 1/loop_simple.py"
+   # ... see README for full list
    
-   # New Days 10-14
+   # Sorting & Search (10-14)
    python3 "Day10/bubblesort.py"
    python3 "Day11/Insertion sort"
-   python3 "Day12/partition"  # Modifies array in-place
+   python3 "Day12/partition"   # quickselect demo
    python3 "Day13/Merge sort"
    python3 "Day14/Binary search"
    
@@ -135,21 +131,20 @@ This repository contains DSA learning materials organized by **daily topics** fr
    ```
 
 ## 📝 Requirements
-- **Python 3.8+** (no external deps)
+- Python 3.8+ (no pip installs needed)
 
 ## 🔧 How to Contribute
-1. Fork → `git checkout -b feature/YourFeature`
-2. Commit: `git commit -m "feat: YourFeature"`
-3. PR to `main`
+1. Fork repo
+2. `git checkout -b feature/amazing-feature`
+3. `git commit -m "feat: add amazing feature"`
+4. Push & open PR
 
 ## 📄 License
-[MIT](https://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT)
 
 ---
 
-**👤 Owner:** Macharla Nagamanojreddy  
-[GitHub](https://github.com/MacharlaNagamanojreddy) | [LinkedIn](https://www.linkedin.com/in/manoj-reddy-macharla-8a9888258/)]]>
-</xai:function_call]
+**👤 Author:** Macharla Nagamanojreddy  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/MacharlaNagamanojreddy)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/manoj-reddy-macharla-8a9888258/)
 
-<xai:function_call name="execute_command">
-<parameter name="command">rm /Users/manojreddy/Downloads/DSA coursework/TODO.md
