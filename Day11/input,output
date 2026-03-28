@@ -1,0 +1,19 @@
+# arr=[1,3,5,7]
+# x=4
+# arr=[1,3,4,5,7]
+
+#Approch:
+# 1.start from the end of the array 
+# 2.shift elements greater than x
+# 3.insert x at the correct position
+def insert(arr, x):
+    arr.append(0)  # Add a dummy element to the end of the array
+    i = len(arr) - 2  # Start from the second last element
+    while i >= 0 and arr[i] > x:
+        arr[i + 1] = arr[i]  # Shift elements to the right
+        i -= 1
+    arr[i + 1] = x # Insert x at the correct position
+    return arr
+arr = [1, 3, 5, 7]
+x = 4
+print(insert(arr, x))

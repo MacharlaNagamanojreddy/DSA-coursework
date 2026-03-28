@@ -1,10 +1,10 @@
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+<![CDATA[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Repo](https://img.shields.io/badge/Repo-DSA--coursework-green?logo=github)](https://github.com/MacharlaNagamanojreddy/DSA-coursework)
 
 # DSA Coursework
 
-A comprehensive Data Structures and Algorithms course with Python implementations.
+A comprehensive Data Structures and Algorithms course with Python implementations covering basics to advanced sorting and searching algorithms.
 
 ## 📖 Table of Contents
 - [📚 Course Overview](#-course-overview)
@@ -18,160 +18,138 @@ A comprehensive Data Structures and Algorithms course with Python implementation
 
 ## 📚 Course Overview
 
-This repository contains DSA learning materials organized by day/topics.
+This repository contains DSA learning materials organized by **daily topics** from fundamentals (loops, conditionals) to advanced algorithms (sorting, searching). All implementations in pure Python with examples.
+
+**Total: 14 Days + 3 Projects**
 
 ## 📅 Content Structure
 
 ### Day 1 - Loops & Number Operations
-- **loop_simple.py** - For and while loops
-  - Print numbers 1 to N
-  - Even/Odd number printing
-  - Sum of N numbers
-  - Sum of N even numbers
-
-- **number_simple.py** - Number operations
-  - Check even/odd
-  - Find max/min of 3 numbers
-  - Prime number check
-  - Armstrong number check
-  - Perfect number check
+- **loop_simple.py** - For/while loops: Print 1-N, even/odd, sum N, sum even
+- **number_simple.py** - Basics: even/odd check, max/min 3 nums, prime/Armstrong/perfect check
 
 ### Day 2 - Conditional Statements
-- **if else.py** - Python conditionals
-  - If statements
-  - If-else statements
-  - If-elif-else statements
-  - Nested if statements
-  - AND/OR operators
-  - Membership operators
+- **if else.py** - if/else/elif, nested, logical (AND/OR), membership operators
 
 ### Day 3 - Counting Problems
-- **counting.py** - Counting algorithms
-  - Count even/odd numbers 1 to N
-  - Count digits in a number
-  - Count prime numbers 1 to N
-  - Count vowels/consonants in string
-  - Count character occurrence
-  - Sum of digits
-  - Reverse number
+- **counting.py** - Count even/odd 1-N, digits, primes, vowels/consonants, chars, sum digits, reverse num
 
 ### Day 4 - Pattern Printing
-- **pattern.py** - Star and number pattern problems
-  - Star right triangle
-  - Number right triangle
-  - Reverse number triangle
-  - Upside down number triangle
+- **pattern.py** - Star/num right triangle, reverse num triangle, upside-down num triangle
 
-### Day 5 - String Counting & Manipulation *(Note: shares filename with Day 3)*
-- **counting.py** - Vowel counting and string reversal
-  - Count vowels in string
-  - Reverse string
+### Day 5 - String Manipulation *(Note: shares filename with Day 3)*
+- **counting.py** - Count vowels, reverse string
 
-### Day 6 - Prime Number Operations
-- **prime number.py** - Prime number checker
-  - Efficient prime check using square root optimization (range 2 to sqrt(n))
-  - Interactive user input and validation
-  - Main function with __name__ == \"__main__\" guard
+### Day 6 - Prime Numbers
+- **prime number.py** - Optimized prime check (2 to √n), user input, main guard
 
-### Day 7 - Array Operations
-- **evenarray.py** - Array processing
-  - Count even numbers in array
-  - Find maximum value in array of unknown size
+### Day 7 - Array Basics
+- **evenarray.py** - Count evens in array, max in unknown-size array
 
-### Day 8 - Time Complexity & Prefix Sum
-- **time and complexity.py** - Time complexity tutorial: O(1), O(n), O(n²) examples + analysis
-- **prefix.py** - Prefix sum array implementation O(n)
-- **palindrome.py** - Palindrome string checking (linear time)
+### Day 8 - Analysis & Prefix
+- **palindrome.py** - String palindrome (linear time)
+- **prefix.py** - Prefix sum array O(n)
+- **time and complexity.py** - Big-O tutorial: O(1), O(n), O(n²) examples
 
-### Day 9 - Search & Sort Algorithms
-- **counting -ve.py** - Counting negative numbers in array/list
-- **counting.py** - Advanced counting problems
-- **linear.py** - Linear search algorithm implementation
-- **selection sort.py** - Selection sort algorithm (O(n²) time complexity)
+### Day 9 - Intro Search/Sort
+- **counting -ve.py** - Count negatives in array
+- **counting.py** - Advanced counting
+- **linear.py** - Linear search
+- **selection sort.py** - Selection sort O(n²)
 
-### Projects - Practical Applications
-- **attendancetracker.py** - Attendance tracker using dictionaries
-  - Add student attendance records by name and date
-  - View all attendance records
+### Day 10 - Bubble Sort
+- **bubblesort.py** - Iterative bubble sort (asc/desc), swap counter
+  - Ex: [8,4,2,6] → swaps printed
 
-- **expenses.py** - Expense tracker using dictionaries
-  - Add expense name and amount  
-  - View all expenses list
+### Day 11 - Insertion Sort & Shifts
+- **Insertion sort** - In-place insertion sort O(n²)
+  - Ex: [12,11,13,5,6] → sorted
+- **counting the shifts**, **input,output** - Shift analysis for sorts
+- **Quick sort.txt** - Quick sort theory
 
-- **fee_calculator.py** - Course fee calculator using functions
-  - Interactive course selection and marks input
-  - Calculates base fee (AI: ₹50,000) with >90 marks discount (₹5,000 off)
-  - Invalid course handling
+### Day 12 - Quick Sort Components
+- **partition** - Lomuto partition for quicksort/quickselect
+  - In-place pivot partitioning
+  - Quickselect kth smallest: Ex [7,10,4,3,20,15], k=3
+
+### Day 13 - Merge Sort
+- **Merge sort** - Recursive merge sort T(n)=2T(n/2)+O(n)
+  - Separate merge fn, stable O(n log n)
+  - Ex: [5,2,4,1] → [1,2,4,5]
+- **Merge sort.txt** - Explanation
+
+### Day 14 - Binary Search
+- **Binary search** - Iterative O(log n) on sorted array
+  - Returns index or -1
+  - Ex: 90 in [10,20,30,40,50] → -1
+
+### Projects - Real-World Apps
+- **attendancetracker.py** - Dict-based attendance (add/view by name/date)
+- **expenses.py** - Expense tracker (add/view name/amount)
+- **fee_calculator.py** - Interactive fee calc (AI course, marks discount >90: -₹5k)
 
 ## 📋 Progress Tracker
 
-- [x] Day 1 - Loops & Number Operations
-- [x] Day 2 - Conditional Statements  
-- [x] Day 3 - Counting Problems
-- [x] Day 4 - Pattern Printing
-- [x] Day 5 - String Counting & Manipulation
-- [x] Day 6 - Prime Number Operations
-- [x] Day 7 - Array Operations
-- [x] Day 8 - Time Complexity & Prefix Sum
-- [x] Day 9 - Search & Sort Algorithms
-- [x] Projects
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1 | Loops/Numbers | ✅ |
+| 2 | Conditionals | ✅ |
+| 3 | Counting | ✅ |
+| 4 | Patterns | ✅ |
+| 5 | Strings | ✅ |
+| 6 | Primes | ✅ |
+| 7 | Arrays | ✅ |
+| 8 | Analysis/Prefix | ✅ |
+| 9 | Linear/Selection | ✅ |
+| **10** | **Bubble Sort** | **✅** |
+| **11** | **Insertion/Shifts** | **✅** |
+| **12** | **Partition** | **✅** |
+| **13** | **Merge Sort** | **✅** |
+| **14** | **Binary Search** | **✅** |
+| Projects | Apps | ✅ |
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+1. **Clone:**
    ```bash
    git clone https://github.com/MacharlaNagamanojreddy/DSA-coursework.git
+   cd "DSA coursework"
    ```
 
-2. Navigate to the directory:
+2. **Run examples** (Python 3.8+):
    ```bash
-   cd \"DSA coursework\"
-   ```
-
-3. Run Python files (examples):
-   ```bash
-   python3 \"Day 1/loop_simple.py\"
-   python3 \"Day 1/number_simple.py\"
-   python3 \"Day 2/if else.py\"
-   python3 \"Day 3/counting.py\"
-   python3 \"Day 4/pattern.py\"
-   python3 \"Day 5/counting.py\"
-   python3 \"Day 6/prime number.py\"
-   python3 \"Day 7/evenarray.py\"
-   python3 \"Day 8/palindrome.py\"
-   python3 \"Day 8/prefix.py\"  
-   python3 \"Day 8/time and complexity.py\"
-   python3 \"Day 9/counting -ve.py\"
-   python3 \"Day 9/counting.py\"
-   python3 \"Day 9/linear.py\"
-   python3 \"Day 9/selection sort.py\"
+   # Days 1-9
+   python3 "Day 1/loop_simple.py"  # & others...
+   
+   # New Days 10-14
+   python3 "Day10/bubblesort.py"
+   python3 "Day11/Insertion sort"
+   python3 "Day12/partition"  # Modifies array in-place
+   python3 "Day13/Merge sort"
+   python3 "Day14/Binary search"
+   
+   # Projects
    python3 projects/attendancetracker.py
    python3 projects/expenses.py
    python3 projects/fee_calculator.py
    ```
 
 ## 📝 Requirements
-
-- Python 3.8+
+- **Python 3.8+** (no external deps)
 
 ## 🔧 How to Contribute
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork → `git checkout -b feature/YourFeature`
+2. Commit: `git commit -m "feat: YourFeature"`
+3. PR to `main`
 
 ## 📄 License
-
-MIT License
+[MIT](https://opensource.org/licenses/MIT)
 
 ---
 
-## 👤 Owner
+**👤 Owner:** Macharla Nagamanojreddy  
+[GitHub](https://github.com/MacharlaNagamanojreddy) | [LinkedIn](https://www.linkedin.com/in/manoj-reddy-macharla-8a9888258/)]]>
+</xai:function_call]
 
-Macharla Nagamanojreddy
-
-- GitHub: [MacharlaNagamanojreddy](https://github.com/MacharlaNagamanojreddy)
-- LinkedIn: [Manoj Reddy Macharla](https://www.linkedin.com/in/manoj-reddy-macharla-8a9888258/)
-
+<xai:function_call name="execute_command">
+<parameter name="command">rm /Users/manojreddy/Downloads/DSA coursework/TODO.md

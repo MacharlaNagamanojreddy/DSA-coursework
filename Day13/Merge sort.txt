@@ -1,0 +1,18 @@
+Merge sort:
+
+divide array into 2 halves
+recursively sort each half
+merge sorted halves
+
+key concept-> always splites -> then merges in sorted order
+
+Time complexity:
+case    	complexity
+Best 		0(nlogn)
+Average 	0(nlogn)
+Worst   	0(nlogn) 
+
+Space complexity:  0(n) -> Extra Array
+key points : -> stable sort
+	     -> Not In-place
+	     -> Good for linked lists and large datasets

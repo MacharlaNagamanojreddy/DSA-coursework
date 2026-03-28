@@ -1,0 +1,8 @@
+Quick sort:
+
+pick a pivot
+placing the pivot in correct position
+elements < pivot -> left
+elements > pivot -> right
+
+eg: arr=[8,6,4,2,5,7,3]
