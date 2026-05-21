@@ -22,7 +22,7 @@ This repository contains DSA learning materials organized by **daily topics** fr
 
 **Total: 14 Days + 3 Projects**
 
-> Synced: repository contents were pushed to GitHub (files Day 15–25 and projects included).
+
 
 ## 📅 Content Structure
 
